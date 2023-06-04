@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1_header">
+      <UniqueIdentifier>{59fd470d-959b-46fe-b4a5-9bb67eae906d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_source">
+      <UniqueIdentifier>{421807fc-e268-47af-ab9f-38bdfbfb2274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3_shader">
+      <UniqueIdentifier>{6120282b-b762-4e39-b435-a7feee34ca69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_header\Scene">
+      <UniqueIdentifier>{ddcd5cfa-7b60-4c40-b3d1-13621f30f715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_source\Scene">
+      <UniqueIdentifier>{249af4bf-0c1a-47b6-bca9-0e3c7e3c1e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_header\Renderer">
+      <UniqueIdentifier>{33dd222e-3a93-4ef2-abbb-44c2e0400a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_source\Renderer">
+      <UniqueIdentifier>{8d9c859b-7140-4dd1-93ae-f5bbf527317b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_header\Manager">
+      <UniqueIdentifier>{700d5a5a-e9d0-494c-96bb-75f3e48197dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_source\Manager">
+      <UniqueIdentifier>{e80915f1-8200-4bf9-b19b-e03b7f04f8b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3_shader\FBX">
+      <UniqueIdentifier>{9c7b7945-b5c9-40e9-bec0-604cbd84228a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3_shader\Pera">
+      <UniqueIdentifier>{8c43ddb1-5674-4c8f-b19f-d052a03e8544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_header\Actor">
+      <UniqueIdentifier>{5477b80c-97c1-46a4-aa7c-9d2a70f33008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_source\Actor">
+      <UniqueIdentifier>{29eab878-d817-423e-bfea-4a35a84dd1f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_header\Wrapper">
+      <UniqueIdentifier>{3e16fe62-61ec-4015-9fac-412a10a2a679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_source\Wrapper">
+      <UniqueIdentifier>{dc85f45e-31b2-4f2d-b4fe-51acd9a31c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_source\ImGui">
+      <UniqueIdentifier>{e1cbaf2f-2942-4ceb-a4e0-400d380b9602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_source\Package">
+      <UniqueIdentifier>{fb46cef4-fe6c-4465-bdcd-e52ff79f6202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_header\Package">
+      <UniqueIdentifier>{b7a9e5d5-724c-4e45-b803-cccccd33eb3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="1_header\Functions.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Application.h">
+      <Filter>1_header</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Scene\PlayScene.h">
+      <Filter>1_header\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Scene\SceneBase.h">
+      <Filter>1_header\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Scene\TitleScene.h">
+      <Filter>1_header\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Renderer\PeraRenderer.h">
+      <Filter>1_header\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Renderer\Renderer.h">
+      <Filter>1_header\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Manager\ImGuiManager.h">
+      <Filter>1_header\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Manager\InputManager.h">
+      <Filter>1_header\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Manager\SoundManager.h">
+      <Filter>1_header\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Manager\SpriteManager.h">
+      <Filter>1_header\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Actor\AssimpLoader.h">
+      <Filter>1_header\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Actor\FBXActor.h">
+      <Filter>1_header\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Wrapper\SphericalCoordinates.h">
+      <Filter>1_header\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Wrapper\Dx12Wrapper.h">
+      <Filter>1_header\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Package\MemoryMappedFile.h">
+      <Filter>1_header\Package</Filter>
+    </ClInclude>
+    <ClInclude Include="1_header\Package\Package.h">
+      <Filter>1_header\Package</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2_source\Application.cpp">
+      <Filter>2_source</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\main.cpp">
+      <Filter>2_source</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\Scene\PlayScene.cpp">
+      <Filter>2_source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\Scene\SceneBase.cpp">
+      <Filter>2_source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\Scene\TitleScene.cpp">
+      <Filter>2_source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\Renderer\PeraRenderer.cpp">
+      <Filter>2_source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\Renderer\Renderer.cpp">
+      <Filter>2_source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\Manager\ImGuiManager.cpp">
+      <Filter>2_source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\Manager\InputManager.cpp">
+      <Filter>2_source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\Manager\SoundManager.cpp">
+      <Filter>2_source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\Manager\SpriteManager.cpp">
+      <Filter>2_source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\Actor\AssimpLoader.cpp">
+      <Filter>2_source\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\Actor\FBXActor.cpp">
+      <Filter>2_source\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\Wrapper\Dx12Wrapper.cpp">
+      <Filter>2_source\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\Wrapper\SphericalCoordinates.cpp">
+      <Filter>2_source\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\ImGui\imgui.cpp">
+      <Filter>2_source\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\ImGui\imgui_demo.cpp">
+      <Filter>2_source\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\ImGui\imgui_draw.cpp">
+      <Filter>2_source\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\ImGui\imgui_impl_dx12.cpp">
+      <Filter>2_source\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\ImGui\imgui_impl_win32.cpp">
+      <Filter>2_source\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\ImGui\imgui_tables.cpp">
+      <Filter>2_source\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\ImGui\imgui_widgets.cpp">
+      <Filter>2_source\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\Package\MemoryMappedFile.cpp">
+      <Filter>2_source\Package</Filter>
+    </ClCompile>
+    <ClCompile Include="2_source\Package\Package.cpp">
+      <Filter>2_source\Package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="3_shader\FBX\FBXPixelShader.hlsl">
+      <Filter>3_shader\FBX</Filter>
+    </FxCompile>
+    <FxCompile Include="3_shader\FBX\FBXVertexShader.hlsl">
+      <Filter>3_shader\FBX</Filter>
+    </FxCompile>
+    <FxCompile Include="3_shader\Pera\PeraPixel.hlsl">
+      <Filter>3_shader\Pera</Filter>
+    </FxCompile>
+    <FxCompile Include="3_shader\Pera\PeraVertex.hlsl">
+      <Filter>3_shader\Pera</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3_shader\FBX\FBXShaderHeader.hlsli">
+      <Filter>3_shader\FBX</Filter>
+    </None>
+    <None Include="3_shader\Pera\PeraHeader.hlsli">
+      <Filter>3_shader\Pera</Filter>
+    </None>
+  </ItemGroup>
+</Project>
