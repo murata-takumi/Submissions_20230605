@@ -16,7 +16,7 @@
 
 # 画面説明
   1.	タイトル画面  
-  ![TitleScene](https://github.com/murata-takumi/Submissions_20230603/blob/main/img/TitleScene.png)  
+  ![TitleScene](https://github.com/murata-takumi/Submissions_20230605/blob/master/img/TitleScene.png)  
   - 「Start」ボタン  
     ゲーム画面に遷移  
   
@@ -24,7 +24,7 @@
     ゲーム終了
 
   2. ゲーム画面 
-  ![PlayScene](https://github.com/murata-takumi/Submissions_20230603/blob/main/img/PlayScene.png)  
+  ![PlayScene](https://github.com/murata-takumi/Submissions_20230605/blob/master/img/PlayScene.png)  
   - 左上ウィンドウ  
     FPSを更新・表示  
   - 各アニメボタン（右）  
