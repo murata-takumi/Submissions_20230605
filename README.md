@@ -52,11 +52,11 @@
 
 # アピールポイント
   1.	約60FPSで動くアニメーション
-    ![Animation](https://github.com/murata-takumi/Submissions_20230603/blob/main/img/Animation.gif)   
+    ![Animation](https://github.com/murata-takumi/Submissions_20230605/blob/master/img/Animation.gif)   
     私は3Dアクションゲームが好きで、アニメーションを滑らかに動かすことが重要だと考えています。そのため、座標変換でのforループの継続条件で使用する変数をループ開始前に定義したり、前置インクリメントを用いたりすることで軽量化し、約60FPSでのアニメーションを実現しました。
   
   2.	マルチパスレンダリングによるフェードイン・フェードアウトの実装  
-    ![Fadein・Fadeout](https://github.com/murata-takumi/Submissions_20230603/blob/main/img/Fadein・Fadeout.gif)   
+    ![Fadein・Fadeout](https://github.com/murata-takumi/Submissions_20230605/blob/master/img/Fadein・Fadeout.gif)   
     マルチパスレンダリングによって、モデルやImGui等のレンダリング結果をテクスチャとしてペラポリゴンに貼り付け、そのRGB値を0から1に調整することで画面遷移時のフェードイン・フェードアウトを実現しています。
 
 # 使用ライブラリ・用途一覧
