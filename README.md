@@ -1,54 +1,69 @@
 # Submissions_20230605
 
-# 作品の概要
+# 作品の概要　*Overview of the Project*
   DirectX12を用いて開発した、FBXモデルの表示やアニメーションの実行等を処理するプログラム作品です。  
-  ## DirectX12を使用した理由  
+  This project handles the display and execution of animations for FBX models using DirectX 12.  
+  ## DirectX12を使用した理由 *Reason for Using DirectX 12*  
      以前お話を伺った本職のプログラマーから、「ゲームエンジンに過度に依存すると、不具合の修正方法が分からなくなる」  
      というアドバイスを受け、エンジンではなくグラフィックスAPIを使用して開発しようと考えた為です。  
      それを踏まえ、現在も積極的に更新されている点や、グラフィックスAPIの中では比較的簡単であるという点を考慮し、  
      DirectX12を選択しました。  
+     Based on advice from a professional programmer I spoke to before, who mentioned that relying too heavily on game engines would make it difficult to know how to fix issues, I decided to develop using graphics APIs instead of an engine. Considering that DirectX 12 is actively updated and relatively easy compared to other graphics APIs, I chose DirectX 12.  
 
-# 開発期間
+# 開発期間 *Development Period*
   約半年  
+  Approximately six months.  
 
-# 開発環境
+# 開発環境 *Development Environment*
   Windows10,Visual Studio 2022  
 
-# 画面説明
-  1.	タイトル画面  
+# 画面説明 *Screen Descriptions*
+  1.	タイトル画面 *Title Screen*
   ![TitleScene](https://github.com/murata-takumi/Submissions_20230605/blob/master/img/TitleScene.png)  
-  - 「Start」ボタン  
+  - 「Start」ボタン *"Start" button*  
     ゲーム画面に遷移  
+    Transition to the game screen.  
   
-  - 「End」ボタン  
-    ゲーム終了
+  - 「End」ボタン *"end" button*  
+    ゲーム終了  
+    Quit the game.  
 
-  2. ゲーム画面 
+  2. ゲーム画面 *Game Screen*
   ![PlayScene](https://github.com/murata-takumi/Submissions_20230605/blob/master/img/PlayScene.png)  
-  - 左上ウィンドウ  
+  - 左上ウィンドウ *Top-left window*    
     FPSを更新・表示  
-  - 各アニメボタン（右）  
+    Updates and displays the FPS.  
+  - 各アニメボタン（右） *Animation buttons (right)*  
     対応するアニメーションを実行  
+    Executes the corresponding animations.  
   
-  - Loopチェックボックス  
-    アニメーションをループさせるかどうか
+  - Loopチェックボックス *Loop checkbox*  
+    アニメーションをループさせるかどうか  
+    Determines whether the animation should loop or not.  
   
-  - WASDキー  
+  - WASDキー *WASD keys*  
     FBXモデルを中心にカメラ回転  
+    Rotates the camera around the FBX model.  
   
-  - Qキー  
+  - Qキー *Q key*  
     モデルからカメラを遠ざける  
-	 （左シフトキー押下時）カメラを下に平行移動  
+    Moves the camera away from the model.  
+   （左シフトキー押下時）カメラを下に平行移動  
+   (Hold the left Shift key together to move the camera parallel downwards)  
  
-  - Eキー  
+  - Eキー *E key*  
     モデルにカメラを近付ける  
-		（左シフトキー押下時）カメラを上に平行移動  
+    Moves the camera closer to the model.  
+   （左シフトキー押下時）カメラを上に平行移動  
+   (Hold the left Shift key together to move the camera parallel upwards)  
   
-  - 「CameraReset」ボタン  
+  - 「CameraReset」ボタン *"CameraReset" button*  
     カメラをリセット  
+    Resets the camera.  
   
-  - 「Exit」ボタン  
+  - 「Exit」ボタン *"Exit" button*  
     タイトル画面に遷移  
+    Returns to the title screen.  
 
 # アピールポイント
   1.	約60FPSで動くアニメーション
